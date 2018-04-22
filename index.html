@@ -33,6 +33,17 @@ body, html {height: 100%}
   <a href="https://goo.gl/forms/dplPkZnqaGqMWGOg2" target="_blank" class="w3-bar-item w3-button">Suggestions</a>
 </div>
 
+<script>
+function myFunction() {
+    var x = document.getElementById("demo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>    
+    
 <div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
   <div class="w3-display-topleft w3-padding-large w3-xlarge">
     SuperUser
