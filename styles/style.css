@@ -39,3 +39,14 @@ body, html {
     background-color: Transparent;
     color: white;
 }
+}
+.button4 {
+    background-color: Transparent;
+    color: black;
+    border: 2px solid #555555;
+}
+
+.button4:hover {
+    background-color: Transparent;
+    color: white;
+}
