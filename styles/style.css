@@ -59,15 +59,6 @@ body, html {
     color: white;
 }
 /*Slideshow*/
-* {
-  padding: 0;
-  margin: 0
-}
-
-body {
-  background-color: #000000;
-}
-
 .crossfade > figure {
   animation: imageAnimation 30s linear infinite 0s;
   backface-visibility: hidden;
@@ -82,25 +73,26 @@ body {
   width: 100%;
   z-index: 0;
 }
+.crossfade > figure:nth-child(1) { background-image: url('images/XP.jpg'); }
 
-.crossfade > figure:nth-child(1) {
-  background-image: url('/images/XP.jpg/');
-}
 .crossfade > figure:nth-child(2) {
   animation-delay: 6s;
-  background-image: url('/images/Vista.jpg/');
+  background-image: url('images/Vista.jpg');
 }
+
 .crossfade > figure:nth-child(3) {
   animation-delay: 12s;
-  background-image: url('/images/Win7.jpg/');
+  background-image: url('images/Win7.jpg');
 }
+
 .crossfade > figure:nth-child(4) {
   animation-delay: 18s;
-  background-image: url('/images/Win8.jpg/');
+  background-image: url('images/Win8.jpg');
 }
+
 .crossfade > figure:nth-child(5) {
   animation-delay: 24s;
-  background-image: url('/images/Win10.jpg/');
+  background-image: url('images/Win10.jpg');
 }
 
 @keyframes imageAnimation {
